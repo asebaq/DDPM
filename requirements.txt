@@ -12,7 +12,7 @@ autopep8
 jupyter
 tensorboard
 opencv-python
-tensorflow
+# tensorflow
 torchmetrics[image]
 torchsummary
 pandas

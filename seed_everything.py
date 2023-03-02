@@ -2,7 +2,7 @@ import os
 import random
 import numpy as np
 import torch
-import tensorflow as tf
+# import tensorflow as tf
 
 DEFAULT_RANDOM_SEED = 17
 
@@ -13,8 +13,8 @@ def seed_basic(seed=DEFAULT_RANDOM_SEED):
     np.random.seed(seed)
 
 
-def seed_tf(seed=DEFAULT_RANDOM_SEED):
-    tf.random.set_seed(seed)
+# def seed_tf(seed=DEFAULT_RANDOM_SEED):
+#     tf.random.set_seed(seed)
 
 
 def seed_torch(seed=DEFAULT_RANDOM_SEED):
