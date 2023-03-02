@@ -135,7 +135,9 @@ dmypy.json
 *.zip
 *.png
 *.jpg
+*.gz
 /.idea/
-/*/runs/*
-/*/*/*/runs/*
-/*/data/
+/runs/*
+/*/*/runs/*
+/data/
+/aclImdb
