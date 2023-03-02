@@ -98,7 +98,7 @@ def train(imagen, df, data_root, logger, writer, log_dir):
     epochs = 1000
     model_path = os.path.join(log_dir, 'checkpoint.pt')
 
-    train_dataloader, test_dataloader = build_dataloaders(df, data_root, 128)
+    train_dataloader, test_dataloader = build_dataloaders(df, data_root, 256)
     trainer = ImagenTrainer(imagen=imagen).cuda()
 
     # Load model
