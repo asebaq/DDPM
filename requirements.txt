@@ -1,0 +1,27 @@
+einops
+tqdm
+pillow
+numpy
+matplotlib
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.0+cu117
+--extra-index-url https://download.pytorch.org/whl/cu117
+torchvision==0.14.0+cu117
+autopep8
+# ipywidgets
+jupyter
+tensorboard
+opencv-python
+tensorflow
+torchmetrics[image]
+torchsummary
+pandas
+transformers
+pytorch-transformers
+imutils
+pylint
+# https://github.com/lucidrains
+imagen-pytorch
+lion-pytorch
+nltk
+scikit-learn
