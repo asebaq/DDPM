@@ -12,7 +12,7 @@ from torchvision import transforms as T
 from shutil import copyfile
 
 import sys
-
+sys.path.append('.')
 from utils.seed_everything import seed_everything
 from utils import log
 from torch.utils.tensorboard import SummaryWriter
