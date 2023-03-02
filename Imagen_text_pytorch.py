@@ -11,10 +11,11 @@ from torchvision import transforms as T
 
 from shutil import copyfile
 
-import sys
-sys.path.append('.')
-from utils.seed_everything import seed_everything
-from utils import log
+# import sys
+# sys.path.append('.')
+
+from seed_everything import seed_everything
+import log
 from torch.utils.tensorboard import SummaryWriter
 
 
